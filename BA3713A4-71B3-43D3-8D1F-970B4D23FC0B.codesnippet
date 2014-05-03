@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sharedStore</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (instancetype)sharedStore
+{
+    static &lt;#Shared Store Class#&gt; *sharedStore = nil;
+    
+    static dispatch_once_t onceToken;
+    
+    dispatch_once(&amp;onceToken, ^{
+        sharedStore = [[self alloc] init];
+    });
+    
+    return sharedStore;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BA3713A4-71B3-43D3-8D1F-970B4D23FC0B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Shared Store Singleton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
