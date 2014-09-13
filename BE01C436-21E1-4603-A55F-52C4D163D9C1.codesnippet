@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>KVOContext</string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static void *KVOContext = &amp;KVOContext;</string>
+	<string>// MARK: </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E53F3837-2D42-448F-A1E6-D59493C57751</string>
+	<string>BE01C436-21E1-4603-A55F-52C4D163D9C1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>KVO Context pointer</string>
+	<string>Swift equivalent of #pragma mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>KVO Context</string>
+	<string>MARK:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
