@@ -2,22 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>IBAction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(IBAction)&lt;#selector#&gt;:(id)sender;</string>
+	<string>///
+/// @code (.cpp)
+///		&lt;#code#&gt;
+/// @endcode
+///</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6FCA5EB9-2D71-4B28-A912-BBD99972DBAD</string>
+	<string>2A54B127-0F24-48F5-8907-95A6A33EF5A9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>IBAction Interface Declaration</string>
+	<string>Example</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBAction</string>
+	<string>Documentation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

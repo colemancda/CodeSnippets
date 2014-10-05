@@ -36,7 +36,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Used for selecting and including the core library for embedXcode project, MCU-based</string>
+	<string>Used for selecting and including the core library for embedXcode project, IDE-based</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>embedXcode MCU-based #include Core Library</string>
 	<key>IDECodeSnippetUserSnippet</key>

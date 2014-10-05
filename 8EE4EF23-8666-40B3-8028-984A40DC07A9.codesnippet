@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>///
+/// @file	&lt;#filename#&gt;
+/// @brief	&lt;#brief#&gt;
+/// @details	&lt;#details#&gt; 
+/// @n	
+/// @n	
+/// @n @a	Developed with [embedXcode](http://embedXcode.weebly.com)
+/// @n
+/// @author	&lt;#author#&gt;
+/// @author	&lt;#website#&gt;
+/// @date	&lt;#date#&gt; &lt;#time#&gt;
+/// @version	&lt;#version#&gt;
+/// @n
+/// @copyright	© &lt;#author#&gt;, &lt;#year#&gt;
+/// @copyright	CC = BY NC SA
+///
+/// @see	ReadMe.txt for references
+/// @n	
+///</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8EE4EF23-8666-40B3-8028-984A40DC07A9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>File</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Documentation</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -2,22 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>IBAction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(IBAction)&lt;#selector#&gt;:(id)sender;</string>
+	<string>///
+/// @note	&lt;#note#&gt;
+/// @warning	&lt;#warning#&gt;
+/// @since	&lt;#since#&gt;
+/// @deprecated	&lt;#deprecated#&gt;
+/// @bug	&lt;#bug#&gt;
+/// @todo	&lt;#todo#&gt;
+/// @test	&lt;#test#&gt;
+///</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6FCA5EB9-2D71-4B28-A912-BBD99972DBAD</string>
+	<string>CC16ECA9-CBE0-444D-BABD-DD018D47CECF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>IBAction Interface Declaration</string>
+	<string>Note, warning, bug, since, deprecated, todo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBAction</string>
+	<string>Documentation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
