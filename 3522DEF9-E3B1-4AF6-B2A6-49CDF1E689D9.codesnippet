@@ -3,24 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - </string>
+	<string>class var shared&lt;#Short Class Name#&gt; : &lt;#Class#&gt; {
+        struct Static {
+            static var onceToken : dispatch_once_t = 0
+            static var instance : &lt;#Class#&gt;? = nil
+        }
+        dispatch_once(&amp;Static.onceToken) {
+            Static.instance = &lt;#Class#&gt;()
+        }
+        return Static.instance!
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BE01C436-21E1-4603-A55F-52C4D163D9C1</string>
+	<string>3522DEF9-E3B1-4AF6-B2A6-49CDF1E689D9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Swift equivalent of #pragma mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK:</string>
+	<string>Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

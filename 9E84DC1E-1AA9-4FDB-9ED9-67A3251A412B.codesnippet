@@ -3,21 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>UIViewController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - </string>
+	<string>import UIKit
+
+class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BE01C436-21E1-4603-A55F-52C4D163D9C1</string>
+	<string>9E84DC1E-1AA9-4FDB-9ED9-67A3251A412B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift equivalent of #pragma mark</string>
+	<string>Template code for a UIKit View Controller</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK:</string>
+	<string>View Controller Template</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
