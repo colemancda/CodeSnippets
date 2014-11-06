@@ -6,7 +6,8 @@
 	<string>KVOContext</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>private let KVOContext = UnsafeMutablePointer&lt;Void&gt;()</string>
