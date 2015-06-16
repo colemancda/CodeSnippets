@@ -9,16 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class var shared&lt;#Short Class Name#&gt; : &lt;#Class#&gt; {
-        struct Static {
-            static var onceToken : dispatch_once_t = 0
-            static var instance : &lt;#Class#&gt;? = nil
-        }
-        dispatch_once(&amp;Static.onceToken) {
-            Static.instance = &lt;#Class#&gt;()
-        }
-        return Static.instance!
-    }</string>
+	<string>static let shared&lt;#Short Class Name#&gt; = &lt;#Class#&gt;()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3522DEF9-E3B1-4AF6-B2A6-49CDF1E689D9</string>
 	<key>IDECodeSnippetLanguage</key>
